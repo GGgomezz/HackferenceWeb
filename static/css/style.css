@@ -111,21 +111,27 @@ section{
 * Background Colors
 ================================================*/
 .bg-texture{
-    background: transparent -webkit-radial-gradient(circle farthest-side at right bottom, #ec407a 5%, #e91e63 25%, #d81b60 80%, #c2185b 98%) repeat scroll 0% 0%;
+    /*background: transparent -webkit-radial-gradient(circle farthest-side at right bottom, #ec407a 5%, #e91e63 25%, #d81b60 80%, #c2185b 98%) repeat scroll 0% 0%;
     background: transparent -o-radial-gradient(circle farthest-side at right bottom, #ec407a 5%, #e91e63 25%, #d81b60 80%, #c2185b 98%) repeat scroll 0% 0%;
     background: transparent -moz-radial-gradient(circle farthest-side at right bottom, #ec407a 5%, #e91e63 25%, #d81b60 80%, #c2185b 98%) repeat scroll 0% 0%;
     background: transparent radial-gradient(circle farthest-side at right bottom, #ec407a 5%, #e91e63 25%, #d81b60 80%, #c2185b 98%) repeat scroll 0% 0%;
+*/
+    background: transparent -webkit-radial-gradient(circle farthest-side at right bottom, #eb731d 5%, #e7296c 25%, #ff7f08 80%, #c2185b 98%) repeat scroll 0% 0%;
+    background: transparent -o-radial-gradient(circle farthest-side at right bottom, #eb731d 5%, #e7296c 25%, #ff7f08 80%, #c2185b 98%) repeat scroll 0% 0%;
+    background: transparent -moz-radial-gradient(circle farthest-side at right bottom, #eb731d 5%, #e7296c 25%, #ff7f08 80%, #c2185b 98%) repeat scroll 0% 0%;
+    background: transparent radial-gradient(circle farthest-side at right bottom, #eb731d 5%, #e7296c 25%, #ff7f08 80%, #c2185b 98%) repeat scroll 0% 0%;
+
 }
 .bg-texture-collage{
-    background:-webkit-linear-gradient(-45deg, #ffb300 33%, transparent 0%),
-        linear-gradient(-45deg, #d81b60 67%, transparent 33%),
-        linear-gradient(-45deg, #ffb300 100%, transparent 67%);
-    background:-moz-linear-gradient(-45deg, #ffb300 33%, transparent 0%),
-        linear-gradient(-45deg, #d81b60 67%, transparent 33%),
-        linear-gradient(-45deg, #ffb300 100%, transparent 67%);
-    background:linear-gradient(-45deg, #ec407a 33%, transparent 0%),
-        linear-gradient(-45deg, #e91e63 67%, transparent 33%),
-        linear-gradient(-45deg, #ec407a 100%, transparent 67%);
+   /background:-webkit-linear-gradient(-45deg, #ef9c21 33%, transparent 0%),
+        linear-gradient(-45deg, #da8010 67%, transparent 33%),
+        linear-gradient(-45deg, #ef9c21 100%, transparent 67%);
+    background:-moz-linear-gradient(-45deg, #ef9c21 33%, transparent 0%),
+        linear-gradient(-45deg, #da8010 67%, transparent 33%),
+        linear-gradient(-45deg, #ef9c21 100%, transparent 67%);
+    background: linear-gradient(-45deg, #ef9c21 33%, transparent 0%),
+        linear-gradient(-45deg, #da8010 67%, transparent 33%),
+        linear-gradient(-45deg, #ef9c21 100%, transparent 67%);
 }
 .bg-alt {
     background-color: #fff;
@@ -134,7 +140,7 @@ section{
     background-color: #FAFAFA;
 }
 .bg-primary{
-    background-color: #d81b60 !important;
+    background-color: #ff7f08 !important;
 }
 .bg-footer{
     background-color: #171717;
@@ -155,10 +161,10 @@ section{
     color: #fff;
 }
 .text-primary {
-    color: #d81b60 !important;
+    color: #e78b15 !important;
 }
 .text-primary-light{
-    color: #ff80ab;
+    color: #ffaa80;
 }
 
 /*===============================================
@@ -199,8 +205,8 @@ section{
     color: #ff4081;
 }
 .btn-primary{
-    background-color: #ff4081 !important;
-    border-color: #ff4081 !important;
+    background-color: #fd8b3a !important;
+    border-color: #fd8b3a !important;
 }
 .btn-primary:hover, .btn-primary:focus{
     color: #fff !important;
@@ -304,5 +310,5 @@ Pricing tables & lists
 ::selection {
     color: #fff;
     text-shadow: none;
-    background: #d81b60;
+    background: #ff7f08;
 }
